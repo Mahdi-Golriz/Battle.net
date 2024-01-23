@@ -1,6 +1,6 @@
-import header from "./public/header/header";
-import menu from "./public/menu/menu";
-import top from "./public/top/top";
+import header from "./public/header/header.js";
+import menu from "./public/menu/menu.js";
+import top from "./public/top/top.js";
 top()
 menu()
 header()
