@@ -88,6 +88,10 @@
   margin: 0.5rem;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -372,6 +376,18 @@
   width: 100%;
 }
 
+.w-\[50px\] {
+  width: 50px;
+}
+
+.w-\[70px\] {
+  width: 70px;
+}
+
+.w-\[146px\] {
+  width: 146px;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -537,6 +553,11 @@
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#364ba0\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(54 75 160 / var(--tw-bg-opacity));
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -657,6 +678,16 @@
   padding-bottom: 15px;
 }
 
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.px-\[15px\] {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .pb-16 {
   padding-bottom: 4rem;
 }
@@ -695,6 +726,14 @@
 
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+.pr-\[15px\] {
+  padding-right: 15px;
+}
+
+.pl-\[15px\] {
+  padding-left: 15px;
 }
 
 .text-left {
@@ -814,6 +853,10 @@
 
 .leading-\[58px\] {
   line-height: 58px;
+}
+
+.leading-relaxed {
+  line-height: 1.625;
 }
 
 .text-\[\#ffb400\] {
@@ -1005,4 +1048,70 @@ div.swiper-pagination{
 .group:hover .group-hover\:placeholder\:text-white::placeholder {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:flex {
+    display: flex;
+  }
+
+  .sm\:flex-col {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:mr-2 {
+    margin-right: 0.5rem;
+  }
+
+  .lg\:box-border {
+    box-sizing: border-box;
+  }
+
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:h-\[88px\] {
+    height: 88px;
+  }
+
+  .lg\:w-\[280px\] {
+    width: 280px;
+  }
+
+  .lg\:w-auto {
+    width: auto;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:mr-2 {
+    margin-right: 0.5rem;
+  }
+
+  .xl\:block {
+    display: block;
+  }
+
+  .xl\:hidden {
+    display: none;
+  }
+
+  .xl\:w-\[280px\] {
+    width: 280px;
+  }
 } 
